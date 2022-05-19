@@ -1,0 +1,35 @@
+.DS_STORE
+*.log
+
+.env
+
+node_modules
+dist
+coverage
+
+# codeship
+codeship.aes
+codeship.env
+tmp
+
+# IDE
+.idea
+.vscode
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Terraform
+**/.terraform/*
+.terraform
+
+*.tfstate
+*.tfstate.*
+
+crash.log
+crash.*.log
+
+.terraformrc
+terraform.rc
