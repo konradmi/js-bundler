@@ -7,7 +7,6 @@
     "chalk": "^5.0.1",
     "jest-haste-map": "^28.1.0",
     "jest-resolve": "^28.1.0",
-    "jest-resolve-dependencies": "^28.1.0",
     "yargs": "^17.5.1"
   }
 }
