@@ -9,7 +9,8 @@ const define = (name, moduleFactory) => {
 const moduleCache = new Map()
 
 const requireModule = (name) => {
-  // If this module has already been executed, return a reference to it. Every module is executed only once
+  // If this module has already been executed, return a reference to it. Every module is executed only once and
+  // not every time it's required
   if (moduleCache.has(name)) {
     return moduleCache.get(name).exports
   }
